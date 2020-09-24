@@ -28,4 +28,4 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### Notes
 Describe any challenges encountered while building the app.
 
-On my computer I have Xcode 9.2 installed, and the Swift version(s) I had on my computer (3.2 and 4.0) were not compatible with AlamofireImage. I created and cloned the repo on an another Mac with updated versions of Xcode and Swift to solve this issue. 
+On my computer I have Xcode 9.2 and Swift 3.2 and 4.0, which were not compatible with AlamofireImage. I created a repo then cloned it on an another Mac with updated versions of Xcode and Swift to solve this issue. 
