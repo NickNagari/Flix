@@ -15,6 +15,9 @@
 		401E870B251A737B00BD0BCC /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401E870A251A737B00BD0BCC /* FlixUITests.swift */; };
 		401E8719251A73F300BD0BCC /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401E8718251A73F300BD0BCC /* MoviesViewController.swift */; };
 		401E871B251A7F5B00BD0BCC /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401E871A251A7F5B00BD0BCC /* MovieCell.swift */; };
+		7D93E10825266C6700D26E2E /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D93E10725266C6700D26E2E /* MovieGridViewController.swift */; };
+		7D93E10D2526707C00D26E2E /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D93E10C2526707C00D26E2E /* MovieGridCell.swift */; };
+		7DAC5EFB25264A7E00061F75 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC5EFA25264A7E00061F75 /* MovieDetailsViewController.swift */; };
 		8AA02DAC4B5C47E133CCAA47 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC6ABD21C4FDCE803A45FBA /* Pods_Flix.framework */; };
 		C5B5E842C29F3C2126AE228D /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18134BA189B5D198A616544 /* Pods_FlixTests.framework */; };
 		E0B6F46DFE0642EBD0054814 /* Pods_Flix_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BAF48392FAFC0B18B62C9 /* Pods_Flix_FlixUITests.framework */; };
@@ -57,6 +60,9 @@
 		4B5BAF48392FAFC0B18B62C9 /* Pods_Flix_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BAA015978CED2C399B51C2 /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
 		5B0327E8753FEC65E8EB0C82 /* Pods-Flix-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix-FlixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Flix-FlixUITests/Pods-Flix-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D93E10725266C6700D26E2E /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		7D93E10C2526707C00D26E2E /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		7DAC5EFA25264A7E00061F75 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		A724C73A4EAB032C4E2424A5 /* Pods-FlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.debug.xcconfig"; path = "Target Support Files/Pods-FlixTests/Pods-FlixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B18134BA189B5D198A616544 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4F5DD1C5962D69C6B3D23D /* Pods-Flix-FlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix-FlixUITests.release.xcconfig"; path = "Target Support Files/Pods-Flix-FlixUITests/Pods-Flix-FlixUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,11 +100,11 @@
 		401E86DE251A737900BD0BCC = {
 			isa = PBXGroup;
 			children = (
+				84C17D9214A054BD2F7A0C29 /* Pods */,
 				401E86E9251A737A00BD0BCC /* Flix */,
 				401E86FE251A737B00BD0BCC /* FlixTests */,
 				401E8709251A737B00BD0BCC /* FlixUITests */,
 				401E86E8251A737A00BD0BCC /* Products */,
-				84C17D9214A054BD2F7A0C29 /* Pods */,
 				96DC5C115FF936FA988F0B92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -118,11 +124,14 @@
 			children = (
 				401E86EA251A737A00BD0BCC /* AppDelegate.swift */,
 				401E86EE251A737A00BD0BCC /* Main.storyboard */,
+				7D93E10725266C6700D26E2E /* MovieGridViewController.swift */,
 				401E86F1251A737A00BD0BCC /* Assets.xcassets */,
 				401E86F3251A737A00BD0BCC /* LaunchScreen.storyboard */,
 				401E86F6251A737A00BD0BCC /* Info.plist */,
 				401E8718251A73F300BD0BCC /* MoviesViewController.swift */,
 				401E871A251A7F5B00BD0BCC /* MovieCell.swift */,
+				7DAC5EFA25264A7E00061F75 /* MovieDetailsViewController.swift */,
+				7D93E10C2526707C00D26E2E /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -404,8 +413,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D93E10825266C6700D26E2E /* MovieGridViewController.swift in Sources */,
+				7DAC5EFB25264A7E00061F75 /* MovieDetailsViewController.swift in Sources */,
 				401E86EB251A737A00BD0BCC /* AppDelegate.swift in Sources */,
 				401E8719251A73F300BD0BCC /* MoviesViewController.swift in Sources */,
+				7D93E10D2526707C00D26E2E /* MovieGridCell.swift in Sources */,
 				401E871B251A7F5B00BD0BCC /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +586,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release",
+				);
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickn.Flix;
@@ -589,6 +605,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release",
+				);
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickn.Flix;
